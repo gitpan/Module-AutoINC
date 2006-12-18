@@ -1,0 +1,8 @@
+Revision history for Perl extension Module::AutoINC.
+
+
+0.01  Tue Oct 10 19:18:23 2006
+	- original version; created by h2xs 1.23 with options
+		-X -n Module::AutoINC
+
+See Module::AutoINC's POD for more history information
