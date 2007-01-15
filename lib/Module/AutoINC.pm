@@ -8,7 +8,7 @@ use File::Spec;
 use File::Basename;
 use Config;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $FORCE;
 
 sub import {
@@ -234,6 +234,18 @@ transparently.
 =head1 HISTORY
 
 =over 4
+
+=item v0.02
+
+=over 4
+
+=item *
+
+No code changes.  The Makefile.pl was asking for too recent a version of Perl. 
+Now it asks for Perl 5.004 as a minimum which is about the time the CPAN.pm
+module was introduded, near as I can tell.
+
+=back
 
 =item v0.01
 
